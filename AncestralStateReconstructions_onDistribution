@@ -6,8 +6,7 @@
 
 library(phytools)
 #import posterior distribution of tree
-setwd("/Users/joycechery/Box/Dissertation_Data/Data/ComparativeMethods/Fruit_morphology/Ancestral State Reconstruction/RandomTrees/")
-tree <- read.nexus("infile.nex.run1andrun2_RemovedAllBurnin_name.t_100RandomTrees")
+tree <- read.nexus("infile.nex.run1andrun2_RemovedAllBurnin_100RandomTrees")
 
 #root all these trees
 tree$tip.labels
@@ -15,8 +14,7 @@ lapply(tree, is.rooted)
 rtrees <- lapply (tree, root, "Cupania_racemosa_Perdiz_432", resolve.root=TRUE)
 class(rtrees)<-"multiPhylo"
 
-#for chronos function
-#https://www.r-phylo.org/wiki/HowTo/Divergence_Time_Estimation
+#date all the trees
 
 results <- list()
 for (i in 1:length(rtrees)) {
@@ -131,15 +129,13 @@ species <- c("Paullinia_acutangula_Acevedo_14325_Caloptilon"
              , "Paullinia_turbacensis_Chery_10_Xyloptilon"
              , "Paullinia_turbacensis_Chery_13_Xyloptilon"
              , "Paullinia_turbacensis_Chery_24_Xyloptilon")
-
-#export ultrametric pruned trees
+#prune tree to above species
 class(results)<-"multiPhylo"
 prunedtrees<- lapply(results, keep.tip, tip=species)
 class(prunedtrees)<-"multiPhylo"
 
 #import fruit morph character data
-setwd("/Users/joycechery/Box/Dissertation_Data/Data/ComparativeMethods/Fruit_morphology/Ancestral State Reconstruction/")
-data<-read.delim("Paullinia_fruits_nameschanged_forR.txt" , sep = "\t", row.names = 1)
+data<-read.delim("Paullinia_Fruits.txt" , sep = "\t", row.names = 1)
 feed.mode<-setNames(data[,1],rownames(data))
 feed.mode
 cols=cols<-setNames(palette()[1:length(unique(feed.mode))],sort(unique(feed.mode)))
