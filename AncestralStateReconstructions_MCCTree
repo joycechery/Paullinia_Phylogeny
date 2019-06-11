@@ -5,8 +5,7 @@
 library(geiger)
 library(phytools)
 #load in Phylogeny
-setwd("/Users/joycechery/Box/Dissertation_Data/Data/ComparativeMethods/Fruit_morphology/Ancestral State Reconstruction/")
-tree <- read.nexus("infile.nex.run1andrun2_RemovedAllBurnin_name.mcc_negtimebranchsetto0.tre")
+tree <- read.nexus("infile.nex.run1andrun2_RemovedAllBurnin_name.mcc.tre")
 
 #root and date tree with relaxed clock model
 tree2<- root(tree, "Cupania_racemosa_Perdiz_432", resolve.root=TRUE)
@@ -121,7 +120,7 @@ pruned_chronogram<-drop.tip(chronogram,chronogram$tip.label[!(chronogram$tip.lab
 class(pruned_chronogram)<-"phylo"
 
 #import fruit morph character data
-data<-read.delim("Paullinia_fruits_nameschanged_forR.txt" , sep = "\t", row.names = 1)
+data<-read.delim("Paullinia_Fruits.txt" , sep = "\t", row.names = 1)
 feed.mode<-setNames(data[,1],rownames(data))
 feed.mode
 cols=cols<-setNames(palette()[1:length(unique(feed.mode))],sort(unique(feed.mode)))
