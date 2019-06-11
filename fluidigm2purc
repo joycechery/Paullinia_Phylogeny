@@ -1,0 +1,19 @@
+#I skipped the sickle step because reads were already trimmed by Trimmomatic
+#started here
+fluidigm2purc -f data/FluidigmData -p flash2
+
+#now prepare reads for PURC
+fluidigm2purc -f data/FluidigmData -p PURCify
+
+#I ran three regimes (A,B,C)/locus, each regime has four cluster iteration steps.
+#in this example the locus is called "locus1" and the preceeding "_A", "_B", or "_C" refers to the regime
+
+./purc_recluster.py -f output-FASTA/16sl.fasta -o output-locus1_A/ -c .975 .995 .995 .995 -s 10 10 --clean
+./purc_recluster.py -f output-FASTA/16sl.fasta -o output-locus1_B/ -c .995 .995 .995 .975 -s 10 10 --clean
+./purc_recluster.py -f output-FASTA/16sl.fasta -o output-locus1_C/ -c .995 .995 .995 .995 -s 10 10 --clean
+
+#this script calculates the maximum likelihood estimate of the best haplotypes for each taxon 
+#do this for all three regimes
+crunch_clusters --input_fasta output-locus1_A/locus1_clustered_reconsensus.afa  \
+                --species_table /Users/joycechery/j_bin/fluidigm2purc/output-taxon-table.txt \
+                --error_rates /Users/joycechery/j_bin/fluidigm2purc/output-locus-err.txt --locus_name locus1
