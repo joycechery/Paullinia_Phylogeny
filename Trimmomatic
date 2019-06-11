@@ -1,3 +1,0 @@
-#Trimmomatic settings to clean illumina seq data
-
--phred33 IBESTGRC_JC_1101_R1.fastq.gz IBESTGRC_JC_1101_R2.fastq.gz output_forward_pairedC.fq.gz output_forward_unpairedC.fq.gz output_reverse_pairedC.fq.gz output_reverse_unpairedC.fq.gz ILLUMINACLIP:TruSeq3-PE-2.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
