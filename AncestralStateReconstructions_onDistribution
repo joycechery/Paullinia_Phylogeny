@@ -1,3 +1,8 @@
+# In this R script I work with a  subset of 100 randomly selected trees from the posterior distribution from the MrBayes run
+# First I root and ultrametricize the phylograms,
+#then I prune the tips down to species with fruit morph data
+#then I map the character history of fruit morph on the pruned ultametricized trees using stochastic character mapping
+#then i summarize the results
 
 library(phytools)
 #import posterior distribution of tree
