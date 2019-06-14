@@ -10,7 +10,7 @@ Begin taxa;
 		Serjania_mexicana_Chery_23
 		Paullinia_rugosa_Chery_25_Pleurotoechus
 		Serjania_pyramidata_Chery_29
-		Serjania_corinigera_Chery_36
+		Serjania_cornigera_Chery_36
 		Paullinia_baileyi_Chery_37_NA
 		Paullinia_bracteosa_Chery_39_Neurotoechus
 		Paullinia_pinnata_Chery_41_Neurotoechus
@@ -163,7 +163,7 @@ Begin trees;
 		5 Serjania_mexicana_Chery_23,
 		6 Paullinia_rugosa_Chery_25_Pleurotoechus,
 		7 Serjania_pyramidata_Chery_29,
-		8 Serjania_corinigera_Chery_36,
+		8 Serjania_cornigera_Chery_36,
 		9 Paullinia_baileyi_Chery_37_NA,
 		10 Paullinia_bracteosa_Chery_39_Neurotoechus,
 		11 Paullinia_pinnata_Chery_41_Neurotoechus,
