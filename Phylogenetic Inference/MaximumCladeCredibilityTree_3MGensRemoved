@@ -63,7 +63,7 @@ Begin taxa;
 		Paullinia_neglecta_Beck_23548_Neurotoechus
 		Paullinia_alsmithii_Villa_1781_NA
 		Paullinia_alsmithii_Granville_16866_NA
-		Paullinia_racemosa_Acevedo_3708_Phygoptilon
+		Paullinia_pseudota_Acevedo_3708_Phygoptilon
 		Paullinia_eriocarpa_Acevedo_7612_NA
 		Paullinia_neglecta_Nee_37116_Neurotoechus
 		Paullinia_alata_Acevedo_7586_Neurotoechus
@@ -74,7 +74,7 @@ Begin taxa;
 		Paullinia_carpopodea_Perdiz_701_Pachytoechus
 		Paullinia_revoluta_Perdiz_822_Phygoptilon
 		Paullinia_ternata_Perdiz_824_Caloptilon
-		Paullinia_racemosa_Roque_2594_Phygoptilon
+		Paullinia_pseudota_Roque_2594_Phygoptilon
 		Paullinia_tomentosa_Acevedo_12236_Pleurotoechus
 		Paullinia_sp._Acevedo_11105_NA
 		Paullinia_elegans_Acevedo_11135_Neurotoechus
@@ -110,7 +110,7 @@ Begin taxa;
 		Paullinia_olivacea_Acevedo_14390_Pachytoechus
 		Paullinia_sphaerocarpa_Acevedo_15247_Enourea
 		Serjania_membranacea_Acevedo_15227
-		Paullinia_racemosa_Perdiz_808_Phygoptilon
+		Paullinia_pseudota_Perdiz_808_Phygoptilon
 		Paullinia_sp._Acevedo_12335_NA
 		Paullinia_rubiginosa_subsp_setosa_Acevedo_11114_Diphtherotoechus
 		Paullinia_killipii_Acevedo_14308_NA
@@ -216,7 +216,7 @@ Begin trees;
 		58 Paullinia_neglecta_Beck_23548_Neurotoechus,
 		59 Paullinia_alsmithii_Villa_1781_NA,
 		60 Paullinia_alsmithii_Granville_16866_NA,
-		61 Paullinia_racemosa_Acevedo_3708_Phygoptilon,
+		61 Paullinia_pseudota_Acevedo_3708_Phygoptilon,
 		62 Paullinia_eriocarpa_Acevedo_7612_NA,
 		63 Paullinia_neglecta_Nee_37116_Neurotoechus,
 		64 Paullinia_alata_Acevedo_7586_Neurotoechus,
@@ -227,7 +227,7 @@ Begin trees;
 		69 Paullinia_carpopodea_Perdiz_701_Pachytoechus,
 		70 Paullinia_revoluta_Perdiz_822_Phygoptilon,
 		71 Paullinia_ternata_Perdiz_824_Caloptilon,
-		72 Paullinia_racemosa_Roque_2594_Phygoptilon,
+		72 Paullinia_pseudota_Roque_2594_Phygoptilon,
 		73 Paullinia_tomentosa_Acevedo_12236_Pleurotoechus,
 		74 Paullinia_sp._Acevedo_11105_NA,
 		75 Paullinia_elegans_Acevedo_11135_Neurotoechus,
@@ -263,7 +263,7 @@ Begin trees;
 		105 Paullinia_olivacea_Acevedo_14390_Pachytoechus,
 		106 Paullinia_sphaerocarpa_Acevedo_15247_Enourea,
 		107 Serjania_membranacea_Acevedo_15227,
-		108 Paullinia_racemosa_Perdiz_808_Phygoptilon,
+		108 Paullinia_pseudota_Perdiz_808_Phygoptilon,
 		109 Paullinia_sp._Acevedo_12335_NA,
 		110 Paullinia_rubiginosa_subsp_setosa_Acevedo_11114_Diphtherotoechus,
 		111 Paullinia_killipii_Acevedo_14308_NA,
