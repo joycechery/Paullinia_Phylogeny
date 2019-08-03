@@ -69,9 +69,9 @@ Begin taxa;
 		Paullinia_alata_Acevedo_7586_Neurotoechus
 		Paullinia_pinnata_Pace_192_Neurotoechus
 		Paullinia_revoluta_Perdiz_487_Phygoptilon
-		Paullinia_carpopodea_Perdiz_519_Pachytoechus
+		Paullinia_carpopoda_Perdiz_519_Pachytoechus
 		Paullinia_costaricensis_Acevedo_15139_Pleurotoechus
-		Paullinia_carpopodea_Perdiz_701_Pachytoechus
+		Paullinia_carpopoda_Perdiz_701_Pachytoechus
 		Paullinia_revoluta_Perdiz_822_Phygoptilon
 		Paullinia_ternata_Perdiz_824_Caloptilon
 		Paullinia_pseudota_Roque_2594_Phygoptilon
@@ -118,7 +118,7 @@ Begin taxa;
 		Lophostigma_plumosum_Acevedo_6568
 		Paullinia_correae_Acevedo_15228_NA
 		Paullinia_verecunda_Acevedo_15234_NA
-		Paullinia_carpopodea_Pace_317_Pachytoechus
+		Paullinia_carpopoda_Pace_317_Pachytoechus
 		Allophylus_semidentatus_Perdiz_777
 		Lophostigma_plumosum_Coulleri_267
 		Paullinia_josecuatrii_Acevedo_14291_NA
@@ -222,9 +222,9 @@ Begin trees;
 		64 Paullinia_alata_Acevedo_7586_Neurotoechus,
 		65 Paullinia_pinnata_Pace_192_Neurotoechus,
 		66 Paullinia_revoluta_Perdiz_487_Phygoptilon,
-		67 Paullinia_carpopodea_Perdiz_519_Pachytoechus,
+		67 Paullinia_carpopoda_Perdiz_519_Pachytoechus,
 		68 Paullinia_costaricensis_Acevedo_15139_Pleurotoechus,
-		69 Paullinia_carpopodea_Perdiz_701_Pachytoechus,
+		69 Paullinia_carpopoda_Perdiz_701_Pachytoechus,
 		70 Paullinia_revoluta_Perdiz_822_Phygoptilon,
 		71 Paullinia_ternata_Perdiz_824_Caloptilon,
 		72 Paullinia_pseudota_Roque_2594_Phygoptilon,
@@ -271,7 +271,7 @@ Begin trees;
 		113 Lophostigma_plumosum_Acevedo_6568,
 		114 Paullinia_correae_Acevedo_15228_NA,
 		115 Paullinia_verecunda_Acevedo_15234_NA,
-		116 Paullinia_carpopodea_Pace_317_Pachytoechus,
+		116 Paullinia_carpopoda_Pace_317_Pachytoechus,
 		117 Allophylus_semidentatus_Perdiz_777,
 		118 Lophostigma_plumosum_Coulleri_267,
 		119 Paullinia_josecuatrii_Acevedo_14291_NA,
