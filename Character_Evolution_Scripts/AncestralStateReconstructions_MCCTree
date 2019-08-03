@@ -29,9 +29,9 @@ species <- c("Paullinia_acutangula_Acevedo_14325_Caloptilon"
              , "Paullinia_bracteosa_Chery_26_Neurotoechus"
              , "Paullinia_bracteosa_Chery_39_Neurotoechus"
              , "Paullinia_caloptera_Acevedo_14315_Caloptilon"
-             , "Paullinia_carpopodea_Pace_317_Pachytoechus"
-             , "Paullinia_carpopodea_Perdiz_519_Pachytoechus"
-             , "Paullinia_carpopodea_Perdiz_701_Pachytoechus"
+             , "Paullinia_carpopoda_Pace_317_Pachytoechus"
+             , "Paullinia_carpopoda_Perdiz_519_Pachytoechus"
+             , "Paullinia_carpopoda_Perdiz_701_Pachytoechus"
              , "Paullinia_cf.boliviana_Acevedo_14916_Caloptilon"
              , "Paullinia_cf.nobilis_Acevedo_15050_Caloptilon"
              , "Paullinia_cf.stellata_Acevedo_14298_Pleurotoechus"
@@ -139,8 +139,3 @@ ard<-make.simmap(pruned_chronogram, feed.mode, model ="ARD")
 #visualize
 plotSimmap(ladderize.simmap(sym, FALSE),fsize=0.65, lwd=2)
 add.simmap.legend(colors=cols,prompt=FALSE,x=1.5,y=6.5)
-
-
-
-
-
